@@ -1,0 +1,12 @@
+App(
+    appid="stitchcounter",
+    name="Stitch Counter",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="stitchcounter",
+    requires=[
+        "gui",
+    ],
+    fap_category="Misc",
+    fap_icon="icons/knitting.png",
+    fap_icon_assets="icons",
+)
